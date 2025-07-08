@@ -66,7 +66,9 @@ apt-get install mediainfo -y
 apt-get install $app_prereq -y
 
 # Download installation files
-DLURL=https://download.sonarr.tv/v4/develop/4.0.0.471/Sonarr.develop.4.0.0.471.linux-x64.tar.gz
+#DLURL=https://download.sonarr.tv/v4/develop/4.0.0.471/Sonarr.develop.4.0.0.471.linux-x64.tar.gz
+#ZUD: Modified download URL
+DLURL="https://services.sonarr.tv/v1/download/main/latest?version=4&os=linux"
 wget --show-progress --content-disposition "$DLURL" -P /tmp
 tar -xvzf /tmp/${app^}.*.tar.gz -C /tmp
 
