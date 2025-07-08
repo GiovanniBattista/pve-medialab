@@ -1,8 +1,8 @@
 [submodule "common"]
 	path = common
-	url = https://github.com/ahuacate/common.git
+	url = https://github.com/GiovanniBattista/common.git
 	branch = main
 [submodule "SimpleHTTPServerWithUpload"]
 	path = SimpleHTTPServerWithUpload
-	url = //192.168.1.10/git/ahuacate/SimpleHTTPServerWithUpload
+	url = https://github.com/ahuacate/SimpleHTTPServerWithUpload
 	branch = main
